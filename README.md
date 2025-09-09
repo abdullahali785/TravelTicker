@@ -1,33 +1,34 @@
-# 🌍 TravelTicker
+# Family Travel Tracker
 
-TravelTicker is a Node.js + Express + PostgreSQL app that lets you track the countries you’ve visited.  
-It displays visited countries, counts them, and prevents duplicates.
-
----
-
-## 🚀 Features
-- Add a country by name (case-insensitive search).
-- View all visited countries and the total count.
-- Prevent duplicate entries with database constraints.
-- Shows error messages for invalid or duplicate countries.
-- Database password stored securely in `password.txt` (not pushed to GitHub).
+**Travel Ticker** is a web application that lets you track the travels of your entire family. Users can add family members, log visited countries, and view dynamic maps showing travel history.
 
 ---
 
-## 🛠️ Tech Stack
-- [Node.js](https://nodejs.org/)
-- [Express](https://expressjs.com/)
-- [PostgreSQL](https://www.postgresql.org/)
-- [EJS](https://ejs.co/) for templating
-- [pg](https://node-postgres.com/) for PostgreSQL connection
+## Features
+
+- Track travels for multiple family members
+- Add new users with a preferred color
+- Log visited countries for each member
+- View visited countries on the homepage
+- Highlight countries with color coding per user
+- Prevent duplicate country entries
+- Responsive UI with maps (future enhancement)
 
 ---
 
-## ⚙️ Setup Instructions
+## Tech Stack
 
+- **Backend:** Node.js, Express.js  
+- **Frontend:** EJS templates, HTML, CSS, JavaScript  
+- **Database:** PostgreSQL  
+- **Other Packages:** body-parser, pg, fs  
+
+---
+
+## Installation
 ```bash
-git clone git@github.com:abdullahali785/TravelTicker.git
-cd TravelTicker
+git clone https://github.com/yourusername/travel-ticker.git
+cd travel-ticker
 
 npm install
 
