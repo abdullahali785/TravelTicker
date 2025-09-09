@@ -56,7 +56,7 @@ app.post("/add", async (req, res) => {
         "INSERT INTO visited_countries (country_code) VALUES ($1);",
         [code]
       );
-      res.redirect("/"  );
+      res.redirect("/");
     } catch (err) {
       console.log(err);
       const countries = await checkVisited();
