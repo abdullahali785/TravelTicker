@@ -27,8 +27,8 @@
 
 ## Installation
 ```bash
-git clone https://github.com/yourusername/travel-ticker.git
-cd travel-ticker
+git clone https://github.com/abdullahali785/TravelTicker.git
+cd TravelTicker
 
 npm install
 
