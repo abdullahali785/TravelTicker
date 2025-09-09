@@ -34,4 +34,15 @@ npm install
 
 node index.js
 ```
+- App runs at http:localhost:3000
 
+---
+
+## Project Structure
+
+├─ public/          # Static files (CSS, JS, images)
+├─ views/           # EJS templates
+├─ index.js         # Main server file
+├─ password.txt     # PostgreSQL password (not committed)
+├─ package.json
+└─ README.md
