@@ -19,7 +19,7 @@
 ## Tech Stack
 
 - **Backend:** Node.js, Express.js  
-- **Frontend:** EJS templates, HTML, CSS, JavaScript  
+- **Frontend:** JavaScript, EJS, HTML, CSS  
 - **Database:** PostgreSQL  
 - **Other Packages:** body-parser, pg, fs  
 
@@ -35,3 +35,14 @@ npm install
 node index.js
 ```
 - App runs at http:localhost:3000
+
+---
+
+## Abdullah's View
+![Abdullah](public/Abdullah.png)
+
+## Hamza's View 
+![Abdullah](public/Hamza.png)
+
+## Add Family Member
+![New](public/New.png)
